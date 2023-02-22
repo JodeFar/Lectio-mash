@@ -16,8 +16,8 @@ du kan sagtens rykke på begge filer bare bevar strukturen, evt lav genveje hvis
 
 evt grunde til at kører det flere gange 
 -------
-[problmer i navnefilen, noget der vil blive forklaret senere]
-[eller lysten til at etablere en database med et andet logind of ]
+<p>problmer i navnefilen, noget der vil blive forklaret senere<\p>
+eller lysten til at etablere en database med et andet logind of ]
 ----
 
 uanset hvorfor man vil køre programmet flere gange er det vigtigt at slette eller rykke den eksisterende database under \main stien 
