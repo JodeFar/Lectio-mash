@@ -5,25 +5,34 @@ I filmen består programmet i skabe en hjemmeside der præsentere billeder af to
 Det samme gør lectio-mash, men denne gang med billeder fra din skole! (man kan skifte mellem billeder af drenge og piger)
 
 --LÆS / introdukcer dig selv til filerne inden du kører dem.
+--Husk på at det kan gå imod gdpr lovgivningen af udgive billeder af andre uden tiladelse 
+--jeg tager intet ansvar for hvordan programmet bliver brugt, programmet i sig selv går ikke i mod gdpr loven
 
 
-
-VIGTIGT: bevar filernes struktur. filerne "snakkersammen" og skal derfor vide hvor de ligger i forhold til hinnanden 
+[VIGTIGT: bevar filernes struktur]
+filerne "snakkersammen" og skal derfor vide hvor de ligger i forhold til hinnanden 
 du kan sagtens rykke på begge filer bare bevar strukturen, evt lav genveje hvis det er et problem
+
 
 -------Database scriptet------   
 - denne fil skal kun køres en gang med mindre en ny databse skal etableres,
 
-evt grunde til at kører det flere gange 
--------
-<p>problmer i navnefilen, noget der vil blive forklaret senere<\p>
-eller lysten til at etablere en database med et andet logind of ]
+
+
+[grunde til at kører det flere gange]
+
+problmer i navnefilen, noget der vil blive forklaret senere
+eller lysten til at etablere en database med et andet logind of
+
 ----
 
 uanset hvorfor man vil køre programmet flere gange er det vigtigt at slette eller rykke den eksisterende database under \main stien 
 den fil eksistere ikke hvis programmet ikke har været kørt før 
 
 
+
+
+[databaseskaber filen]
 
 lectio-mash bruger et logind (brugernavn & adgangskode) til at downloade alle elevers lectio-billder på det givende loginds skole
 Brugernavnet og koden bliver ikke gemt efter programmet er lukket og bliver kun brugt til at ekstrahere cookies der er nødvendige for programmet
@@ -48,7 +57,7 @@ samt hvorvidt personen dømte en til at være mere attraktive end den anden.
 
 
 
-Problemer og løsninger 
+[Problemer og løsninger]
 
 databasen forsøger automatisk at bestemme hvorvidt du er en pige eller dreng ud fra dit navn. 
 Det virker ca 95% af tiden. Når det kører rigtigt og betyder også at du under drenge afdelingen kommer til at se en pige engang i mellem 
@@ -66,3 +75,29 @@ løsning 1:
 løsning 2:
 - manuelt ændre databasen (drenge er markert med et 'm' og piger ved værdien None)
 - her skal man bruge et program til visualisere databasen fx 'DB-browser'  (databasen er en SQLite fil)
+
+
+[effektiviter det]
+største delen af ventetiden i koden er den tid computeren bruger på ikke at spørge lectio, (forklaret tidligere)
+dette problem kunne nemt løses. Faktisk kunne programmet kører meget hurtigere og kræve marknt mindre computerkræft. 
+hvis man i stedet for at lave alle elevid om til billede ider et af gangen gjor det pr klasse. Der opstår noget andre problemer men et er hurtigere og anderledes jeg har ikke gjort det fordi jeg først tænkte på det efter jeg havde lavet programmet og lad ik ændre på det.
+
+
+
+[main.py]
+
+deter først gang jeg rigtigt har kodet html og css så det er blevet lidt en skrammel bunke, jeg gemmer information i html'en og læser den igen når den kommer tilbage. dette sytem er super usikkert og kan nemt misbruges jeg har lavet en "encodeing" dens formål er udelukkende at gøre det vanskligt for brugeren, en der kommer ind på hjemmesiden af forstå hvad der sker med tallen og hvordan de kunne manipuleres for at ændre ens rating i databasen. Hvis du selv har en bedre løsning end den jeg bruger kan du jo bare kun bruge 'etablere_database' scriptet 
+
+
+[Problemer]
+
+ligenu vises to billede tilfældigt, ideelt skulle to mennesker med samme elo matches mod hinnaden. 
+jeg har en udgave der gør det så effiktivt som muligt men det kan man selv finde ud af hvorfor kunne være et problem.
+
+
+
+
+
+
+
+
