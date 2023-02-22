@@ -1,12 +1,12 @@
 # Lectio-mash
-Lectio-mash er et program der er inspireret af Fase-mash fra filmen The Social Network bare udviklet til Lectio.
+
 Lectio-mash er et program der er inspireret af Fase-mash fra filmen The Social Network bare udviklet til Lectio.
 I filmen består programmet i skabe en hjemmeside der præsentere billeder af to piger, man trykker så på den flotteste pige og bliver præsenterete for to nye piger. 
 Det samme gør lectio-mash, men denne gang med billeder fra din skole! (man kan skifte mellem billeder af drenge og piger)
 
 --LÆS / introdukcer dig selv til filerne inden du kører dem.
 --Husk på at det kan gå imod gdpr lovgivningen af udgive billeder af andre uden tiladelse 
---jeg tager intet ansvar for hvordan programmet bliver brugt, programmet i sig selv går ikke i mod gdpr loven
+--jeg tager intet ansvar for hvordan programmet bliver brugt, programmet i sig selv går ikke i mod GDPR loven
 
 
 [VIGTIGT: bevar filernes struktur]
@@ -22,7 +22,7 @@ du kan sagtens rykke på begge filer bare bevar strukturen, evt lav genveje hvis
 [grunde til at kører det flere gange]
 
 problmer i navnefilen, noget der vil blive forklaret senere
-eller lysten til at etablere en database med et andet logind of
+eller lysten til at etablere en database med et andet logind
 
 uanset hvorfor man vil køre programmet flere gange er det vigtigt at slette eller rykke den eksisterende database under \main stien 
 den fil eksistere ikke hvis programmet ikke har været kørt før 
