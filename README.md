@@ -19,7 +19,7 @@ du kan sagtens rykke på begge filer bare bevar strukturen, evt lav genveje hvis
 
 
 
-[<h3>grunde til at kører det flere gange</h3>]
+<h3>grunde til at kører det flere gange</h3>
 
 problmer i navnefilen, noget der vil blive forklaret senere
 eller lysten til at etablere en database med et andet logind
@@ -30,7 +30,7 @@ den fil eksistere ikke hvis programmet ikke har været kørt før
 
 ---
 
-[databaseskaber filen]
+<h3>databaseskaber filen</h3>
 
 lectio-mash bruger et logind (brugernavn & adgangskode) til at downloade alle elevers lectio-billder på det givende loginds skole
 Brugernavnet og koden bliver ikke gemt efter programmet er lukket og bliver kun brugt til at ekstrahere cookies der er nødvendige for programmet
@@ -55,7 +55,7 @@ samt hvorvidt personen dømte en til at være mere attraktive end den anden.
 
 
 
-[Problemer og løsninger]
+<h3>Problemer og løsninger</h3>
 
 databasen forsøger automatisk at bestemme hvorvidt du er en pige eller dreng ud fra dit navn. 
 Det virker ca 95% af tiden. Når det kører rigtigt og betyder også at du under drenge afdelingen kommer til at se en pige engang i mellem 
@@ -75,7 +75,7 @@ løsning 2:
 - her skal man bruge et program til visualisere databasen fx 'DB-browser'  (databasen er en SQLite fil)
 
 
-[effektiviter det]
+<h2>effektiviter det</h2>
 
 største delen af ventetiden i koden er den tid computeren bruger på ikke at spørge lectio, (forklaret tidligere)
 dette problem kunne nemt løses. Faktisk kunne programmet kører meget hurtigere og kræve marknt mindre computerkræft. 
@@ -83,12 +83,12 @@ hvis man i stedet for at lave alle elevid om til billede ider et af gangen gjor 
 
 
 
-[main.py]
+<h3>main.py</h3>
 
 deter først gang jeg rigtigt har kodet html og css så det er blevet lidt en skrammel bunke, jeg gemmer information i html'en og læser den igen når den kommer tilbage. dette sytem er super usikkert og kan nemt misbruges jeg har lavet en "encodeing" dens formål er udelukkende at gøre det vanskligt for brugeren, en der kommer ind på hjemmesiden af forstå hvad der sker med tallen og hvordan de kunne manipuleres for at ændre ens rating i databasen. Hvis du selv har en bedre løsning end den jeg bruger kan du jo bare kun bruge 'etablere_database' scriptet 
 
 
-[Problemer]
+<h2>Problemer</h2>
 
 ligenu vises to billede tilfældigt, ideelt skulle to mennesker med samme elo matches mod hinnaden. 
 jeg har en udgave der gør det så effiktivt som muligt men det kan man selv finde ud af hvorfor kunne være et problem.
