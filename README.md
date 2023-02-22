@@ -9,12 +9,12 @@ Det samme gør lectio-mash, men denne gang med billeder fra din skole! (man kan 
 --jeg tager intet ansvar for hvordan programmet bliver brugt, programmet i sig selv går ikke i mod GDPR loven
 
 
-[VIGTIGT: bevar filernes struktur]
+<h1 style ="color: #000000; "> VIGTIGT <em>bevar filernes struktur</em></h1>
 filerne "snakkersammen" og skal derfor vide hvor de ligger i forhold til hinnanden 
 du kan sagtens rykke på begge filer bare bevar strukturen, evt lav genveje hvis det er et problem
 
 
--------Database scriptet------   
+<h2>Database scriptet</h2>
 - denne fil skal kun køres en gang med mindre en ny databse skal etableres,
 
 
