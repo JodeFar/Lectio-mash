@@ -5,13 +5,13 @@ filerne til dagsdato er dog ens.
 
 
 <h4>fordelen</h4>
--- du ikke behøver en python interpreter 
--- det er cryptisk og kan ikke decodes på samme måde
+--du ikke behøver en python interpreter 
+--det er cryptisk og kan ikke decodes på samme måde
 
 <h4>ulemper</h4>
--- du ikke reelt kan sige hvad konden gør
--- du kan ikke være sikker på at det er den samme kode 
--- du kan ikke ændre på koden
+--du ikke reelt kan sige hvad konden gør
+--du kan ikke være sikker på at det er den samme kode 
+--du kan ikke ændre på koden
 
 
 
