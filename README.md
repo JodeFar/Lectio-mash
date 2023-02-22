@@ -23,7 +23,7 @@ du kan sagtens rykke på begge filer bare bevar strukturen, evt lav genveje hvis
 Husk på at det kan gå imod GDPR lovgivningen af udgive billeder af andre uden tiladelse 
 jeg tager intet ansvar for hvordan programmet bliver brugt, programmet i sig selv går ikke i mod GDPR loven
 
-
+----------------------------
 
 <h2>Database scriptet</h2>
 - denne fil skal kun køres en gang med mindre en ny databse skal etableres,
