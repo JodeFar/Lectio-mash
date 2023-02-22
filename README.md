@@ -24,13 +24,11 @@ du kan sagtens rykke på begge filer bare bevar strukturen, evt lav genveje hvis
 problmer i navnefilen, noget der vil blive forklaret senere
 eller lysten til at etablere en database med et andet logind of
 
-----
-
 uanset hvorfor man vil køre programmet flere gange er det vigtigt at slette eller rykke den eksisterende database under \main stien 
 den fil eksistere ikke hvis programmet ikke har været kørt før 
 
 
-
+---
 
 [databaseskaber filen]
 
@@ -78,6 +76,7 @@ løsning 2:
 
 
 [effektiviter det]
+
 største delen af ventetiden i koden er den tid computeren bruger på ikke at spørge lectio, (forklaret tidligere)
 dette problem kunne nemt løses. Faktisk kunne programmet kører meget hurtigere og kræve marknt mindre computerkræft. 
 hvis man i stedet for at lave alle elevid om til billede ider et af gangen gjor det pr klasse. Der opstår noget andre problemer men et er hurtigere og anderledes jeg har ikke gjort det fordi jeg først tænkte på det efter jeg havde lavet programmet og lad ik ændre på det.
