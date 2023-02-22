@@ -6,15 +6,22 @@ Lectio-mash er et program der er inspireret af Fase-mash fra filmen The Social N
 I filmen består programmet i skabe en hjemmeside der præsentere billeder af to piger, man trykker så på den flotteste pige og bliver præsenterete for to nye piger. 
 Det samme gør lectio-mash, men denne gang med billeder fra din skole! (man kan skifte mellem billeder af drenge og piger)
 
---LÆS / introdukcer dig selv til filerne inden du kører dem.
---Husk på at det kan gå imod gdpr lovgivningen af udgive billeder af andre uden tiladelse 
---jeg tager intet ansvar for hvordan programmet bliver brugt, programmet i sig selv går ikke i mod GDPR loven
+
 
 
 <h1 style ="color: #FF0000; "> VIGTIGT 
+ 
+<h3>læs / indrodukcer dig selv til filerne</h3>
+for at kunne kører og debugge evt fejl / lave rettelser i programmet eller databaser er det vigtigt at fostå hvordan de snakker sammen. 
+det er heldvis ikke særig kompliceret men det anbefales kraftigt at læse dette dokument inden man begynder at ændre og rykke på data
+  
 <h3>bevar filernes struktur</em></h3>
 filerne "snakkersammen" og skal derfor vide hvor de ligger i forhold til hinnanden 
 du kan sagtens rykke på begge filer bare bevar strukturen, evt lav genveje hvis det er et problem
+
+<h3>overskridelse af GDPR-loven</h3>
+Husk på at det kan gå imod GDPR lovgivningen af udgive billeder af andre uden tiladelse 
+jeg tager intet ansvar for hvordan programmet bliver brugt, programmet i sig selv går ikke i mod GDPR loven
 
 
 
