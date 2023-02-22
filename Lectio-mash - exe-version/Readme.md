@@ -1,0 +1,1 @@
+#exe version af programmet 
