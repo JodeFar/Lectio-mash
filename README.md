@@ -19,7 +19,7 @@ du kan sagtens rykke på begge filer bare bevar strukturen, evt lav genveje hvis
 
 
 
-[<p>grunde til at kører det flere gange<p>]
+[<p style="font-size:50px">grunde til at kører det flere gange<p>]
 
 problmer i navnefilen, noget der vil blive forklaret senere
 eller lysten til at etablere en database med et andet logind
