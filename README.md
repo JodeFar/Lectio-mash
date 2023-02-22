@@ -30,7 +30,7 @@ den fil eksistere ikke hvis programmet ikke har været kørt før
 
 ---
 
-<h3>databaseskaber filen</h3>
+<h2>databaseskaber filen</h2>
 
 lectio-mash bruger et logind (brugernavn & adgangskode) til at downloade alle elevers lectio-billder på det givende loginds skole
 Brugernavnet og koden bliver ikke gemt efter programmet er lukket og bliver kun brugt til at ekstrahere cookies der er nødvendige for programmet
@@ -46,6 +46,7 @@ i programmets consol kan der ses direkte updatering om hvad programmet laver
 
 -----
 
+<h4>håndtering af billder</h3>
 
 billederne der bliver først downloaded ned til en fil, derefter bliver de så skrevet ind i en database som hjemmesiden (main.py) kan ekstrahere og ændre værdier i
 Databasen har en indbygget elo(samme system og k-værdi som i skak) der ændre sig afhængig af hvem man er blevet sammenlignet på hjemesiden og deres elo
@@ -55,7 +56,7 @@ samt hvorvidt personen dømte en til at være mere attraktive end den anden.
 
 
 
-<h3>Problemer og løsninger</h3>
+<h2>Problemer og løsninger</h2>
 
 databasen forsøger automatisk at bestemme hvorvidt du er en pige eller dreng ud fra dit navn. 
 Det virker ca 95% af tiden. Når det kører rigtigt og betyder også at du under drenge afdelingen kommer til at se en pige engang i mellem 
@@ -75,20 +76,20 @@ løsning 2:
 - her skal man bruge et program til visualisere databasen fx 'DB-browser'  (databasen er en SQLite fil)
 
 
-<h2>effektiviter det</h2>
+<h3>effektiviter det</h3>
 
 største delen af ventetiden i koden er den tid computeren bruger på ikke at spørge lectio, (forklaret tidligere)
 dette problem kunne nemt løses. Faktisk kunne programmet kører meget hurtigere og kræve marknt mindre computerkræft. 
 hvis man i stedet for at lave alle elevid om til billede ider et af gangen gjor det pr klasse. Der opstår noget andre problemer men et er hurtigere og anderledes jeg har ikke gjort det fordi jeg først tænkte på det efter jeg havde lavet programmet og lad ik ændre på det.
 
-<h3>main.py</h3>
+<h2>main.py</h2>
 
 --------
 
 deter først gang jeg rigtigt har kodet html og css så det er blevet lidt en skrammel bunke, jeg gemmer information i html'en og læser den igen når den kommer tilbage. dette sytem er super usikkert og kan nemt misbruges jeg har lavet en "encodeing" dens formål er udelukkende at gøre det vanskligt for brugeren, en der kommer ind på hjemmesiden af forstå hvad der sker med tallen og hvordan de kunne manipuleres for at ændre ens rating i databasen. Hvis du selv har en bedre løsning end den jeg bruger kan du jo bare kun bruge 'etablere_database' scriptet 
 
 
-<h2>Problemer</h2>
+<h3>Problemer</h3>
 
 ligenu vises to billede tilfældigt, ideelt skulle to mennesker med samme elo matches mod hinnaden. 
 jeg har en udgave der gør det så effiktivt som muligt men det kan man selv finde ud af hvorfor kunne være et problem.
