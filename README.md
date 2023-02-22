@@ -81,9 +81,9 @@ største delen af ventetiden i koden er den tid computeren bruger på ikke at sp
 dette problem kunne nemt løses. Faktisk kunne programmet kører meget hurtigere og kræve marknt mindre computerkræft. 
 hvis man i stedet for at lave alle elevid om til billede ider et af gangen gjor det pr klasse. Der opstår noget andre problemer men et er hurtigere og anderledes jeg har ikke gjort det fordi jeg først tænkte på det efter jeg havde lavet programmet og lad ik ændre på det.
 
-
-
 <h3>main.py</h3>
+
+--------
 
 deter først gang jeg rigtigt har kodet html og css så det er blevet lidt en skrammel bunke, jeg gemmer information i html'en og læser den igen når den kommer tilbage. dette sytem er super usikkert og kan nemt misbruges jeg har lavet en "encodeing" dens formål er udelukkende at gøre det vanskligt for brugeren, en der kommer ind på hjemmesiden af forstå hvad der sker med tallen og hvordan de kunne manipuleres for at ændre ens rating i databasen. Hvis du selv har en bedre løsning end den jeg bruger kan du jo bare kun bruge 'etablere_database' scriptet 
 
