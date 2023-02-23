@@ -106,8 +106,6 @@ ligenu vises to billede tilfældigt, ideelt skulle to mennesker med samme elo ma
 jeg har en udgave der gør det så effiktivt som muligt men det kan man selv finde ud af hvorfor kunne være et problem.
 
 
-hvis du har nogen yderligere spørgsmål kan du tilføje min discord: JødeFar#3740
-
 
 
 
