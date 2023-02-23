@@ -87,7 +87,7 @@ løsning 2:
 - her skal man bruge et program til visualisere databasen fx 'DB-browser'  (databasen er en SQLite fil)
 
 
-<h3>effektiviter det</h3>
+<h3>effektivisere det</h3>
 
 største delen af ventetiden i koden er den tid computeren bruger på ikke at spørge lectio, (forklaret tidligere)
 dette problem kunne nemt løses. Faktisk kunne programmet kører meget hurtigere og kræve marknt mindre computerkræft. 
