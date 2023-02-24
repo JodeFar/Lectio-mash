@@ -18,5 +18,3 @@ du kan ikke ændre på koden
 
 hvis du ikke stoler på exe filer men ønsker at lave de transparante python filer til exe kan bare gøre det
 med Pyinstaller eller auto_py_to_exe    -  husk på her at der er 1 hidden import i Requests modulet "charset_normalizer.md__mypyc"
-
-hvis du har nogen yderligere spørgsmål kan du tilføje min discord: JødeFar#3740
